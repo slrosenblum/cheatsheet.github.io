@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>HTML Input Element Cheatsheet</title>
+  </head>
+
+  <!-- Body -->
+
+  <body>
+    <h1>HTML Input Elements</h1>
+
+  <!-- Table -->
+
+    <div class="table">
+      <table>
+        <caption>Available input types</caption>
+        <thead>
+          <tr>
+            <th scope="col">Type</th>
+            <th scope="col">Description</th>
+            <th scope="col">Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">button</th>
+            <td>A push button with no default behavior displaying the value of the <span class="code">value</span> attribute, empty by default.</td>
+            <td class="example"><input type="button" value="Push me!"></td>
+          </tr>
+          <tr>
+            <th scope="row">checkbox</th>
+            <td>A check box allowing single values to be selected/deselected.</td>
+            <td class="example"><input type="checkbox"></td>
+          </tr>
+          <tr>
+            <th scope="row">color</th>
+            <td>A control for specifying a color; opening a color picker when active in supporting browsers.</td>
+            <td class="example"><input type="color"></td>
+          </tr>
+          <tr>
+            <th scope="row">date</th>
+            <td>A control for entering a date (year, month, and day, with no time). Opens a date picker or numeric wheels for year, month, day when active in supporting browsers.</td>
+            <td class="example"><input type="date"></td>
+          </tr>
+          <tr>
+            <th scope="row">datetime-local</th>
+            <td>A control for entering a date and time, with no time zone. Opens a date picker or numeric wheels for date- and time-components when active in supporting browsers.</td>
+            <td class="example"><input type="datetime-local"></td>
+          </tr>
+          <tr>
+            <th scope="row">email</th>
+            <td>A field for editing an email address. Looks like a <span class="code">text</span> input, but has validation parameters and relevant keyboard in supporting browsers and devices with dynamic keyboards.</td>
+            <td class="example"><input type="email"></td>
+          </tr>
+          <tr>
+            <th scope="row">file</th>
+            <td>A control that lets the user select a file. Use the <span class="code">accept</span> attribute to define the types of files that the control can select.</td>
+            <td class="example"><input type="file"></td>
+          </tr>
+          <tr>
+            <th scope="row">hidden</th>
+            <td>A control that is not displayed but whose value is submitted to the server. There is an example in the next column, but it's hidden!</td>
+            <td class="example"><input type="hidden"></td>
+          </tr>
+          <tr>
+            <th scope="row">image</th>
+            <td>A graphical <span class="code">submit</span> button. Displays an image defined by the <span class="code">src</span> attribute. The <span class="code">alt</span> attribute displays if the image <span class="code">src</span> is missing.</td>
+            <td class="example"><input type="image"></td>
+          </tr>
+          <tr>
+            <th scope="row">month</th>
+            <td>	A control for entering a month and year, with no time zone.</td>
+            <td class="example"><input type="month"></td>
+          </tr>
+          <tr>
+            <th scope="row">number</th>
+            <td>A control for entering a number. Displays a spinner and adds default validation. Displays a numeric keypad in some devices with dynamic keypads.</td>
+            <td class="example"><input type="number"></td>
+          </tr>
+          <tr>
+            <th scope="row">password</th>
+            <td>A single-line text field whose value is obscured. Will alert user if site is not secure.</td>
+            <td class="example"><input type="password"></td>
+          </tr>
+          <tr>
+            <th scope="row">radio</th>
+            <td>A radio button, allowing a single value to be selected out of multiple choices with the same <span class="code">name</span> value.</td>
+            <td class="example"><input type="radio"></td>
+          </tr>
+          <tr>
+            <th scope="row">range</th>
+            <td>A control for entering a number whose exact value is not important. Displays as a range widget defaulting to the middle value. Used in conjunction <span class="code">min</span> and <span class="code">max</span> to define the range of acceptable values.</td>
+            <td class="example"><input type="range" min="0" max="5"></td>
+          </tr>
+          <tr>
+            <th scope="row">reset</th>
+            <td>A button that resets the contents of the form to default values. Not recommended.</td>
+            <td class="example"><input type="reset"></td>
+          </tr>
+          <tr>
+            <th scope="row">search</th>
+            <td>A single-line text field for entering search strings. Line-breaks are automatically removed from the input value. May include a delete icon in supporting browsers that can be used to clear the field. Displays a search icon instead of enter key on some devices with dynamic keypads.</td>
+            <td class="example"><input type="search"></td>
+          </tr>
+          <tr>
+            <th scope="row">submit</th>
+            <td>A button that submits the form.</td>
+            <td class="example"><input type="submit"></td>
+          </tr>
+          <tr>
+            <th scope="row">tel</th>
+            <td>A control for entering a telephone number. Displays a telephone keypad in some devices with dynamic keypads.</td>
+            <td class="example"><input type="tel"></td>
+          </tr>
+          <tr>
+            <th scope="row">text</th>
+            <td>The default value. A single-line text field. Line-breaks are automatically removed from the input value.</td>
+            <td class="example"><input></td>
+          </tr>
+          <tr>
+            <th scope="row">time</th>
+            <td>A control for entering a time value with no time zone.</td>
+            <td class="example"><input type="time"></td>
+          </tr>
+          <tr>
+            <th scope="row">url</th>
+            <td>A field for entering a URL. Looks like a <span class="code">text</span> input, but has validation parameters and relevant keyboard in supporting browsers and devices with dynamic keyboards.</td>
+            <td class="example"><input type="url"></td>
+          </tr>
+          <tr>
+            <th scope="row">week</th>
+            <td>A control for entering a date consisting of a week-year number and a week number with no time zone.</td>
+            <td class="example"><input type="week"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+  <!-- Footer -->
+  
+    <footer>
+      <p>Content sourced from <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank">MDN</a></p>
+    </footer>
+  </body>
+
+</html>
